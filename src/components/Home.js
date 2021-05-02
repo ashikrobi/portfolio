@@ -3,14 +3,14 @@ import About from "./About";
 import ContactMe from "./ContactMe";
 import Footer from "./Footer";
 import Header from "./Header";
-import Navbar from "./Navbar";
+import Projects from "./Projects";
 
 const Home = () => {
   return (
     <div>
       <Header></Header>
-      <Navbar></Navbar>
       <About></About>
+      <Projects></Projects>
       <ContactMe></ContactMe>
       <Footer></Footer>
     </div>
