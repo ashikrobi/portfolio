@@ -4,7 +4,7 @@ import ParticlesBg from "particles-bg";
 const Header = () => {
   return (
     <div
-      style={{height: "1024px"}}
+      style={{minHeight: "1024px"}}
       className="d-sm-flex justify-content-center">
       <ParticlesBg type="lines" bg={true} />
       <div className="d-sm-flex align-items-center">
