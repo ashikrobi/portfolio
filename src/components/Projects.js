@@ -17,14 +17,14 @@ const projectData = [
     img: project1,
   },
   {
-    id: 1,
+    id: 2,
     title: "BOOKBAR",
     shortDescription: "It’s an online store of books",
     webLink: "https://full-stack-client-7f5b5.firebaseapp.com/",
     img: project2,
   },
   {
-    id: 1,
+    id: 3,
     title: "Team Builder",
     shortDescription:
       "Team building site with costing calculation for premier league of cricket",
@@ -36,7 +36,7 @@ const Projects = () => {
   return (
     <div style={projectStyles}>
       <div className="display-4 text-center mt-5">
-        <h1>PROJECTS</h1>
+        <h1 style={{fontSize: "2.5rem"}}>PROJECTS</h1>
       </div>
       <div className="row d-flex justify-content-center mb-5 pb-5">
         {projectData.map((project) => (
