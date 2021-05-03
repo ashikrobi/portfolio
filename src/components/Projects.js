@@ -36,7 +36,9 @@ const Projects = () => {
   return (
     <div style={projectStyles}>
       <div className="display-4 text-center mt-5">
-        <h1 style={{fontSize: "2.5rem"}}>PROJECTS</h1>
+        <h1 className="pt-5" style={{fontSize: "2.5rem"}}>
+          PROJECTS
+        </h1>
       </div>
       <div className="row d-flex justify-content-center mb-5 pb-5">
         {projectData.map((project) => (

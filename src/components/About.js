@@ -3,7 +3,9 @@ import photo from "../images/photo_passport.png";
 const About = () => {
   return (
     <div className="w-75 text-center m-auto mt-5 mb-5 pt-5">
-      <h1 className="text-center mb-5">ABOUT</h1>
+      <h1 className="text-center mb-5" style={{fontSize: "2.5rem"}}>
+        ABOUT
+      </h1>
       <div className="row">
         <div className="col-md-6">
           <img src={photo} alt="" className="mb-5 shadow-lg bg-body rounded" />
