@@ -1,5 +1,10 @@
 import React from "react";
 import photo from "../images/photo_passport.png";
+const imageStyle = {
+  height: "220px",
+  width: "220px",
+};
+
 const About = () => {
   return (
     <div className="w-75 text-center m-auto">
@@ -8,7 +13,12 @@ const About = () => {
       </h1>
       <div className="row">
         <div className="col-md-6">
-          <img src={photo} alt="" className="mb-5 shadow-lg bg-body rounded" />
+          <img
+            src={photo}
+            alt=""
+            className="mb-5 shadow-lg bg-body rounded"
+            style={imageStyle}
+          />
           <h1>Who am i?</h1>
           <p>
             I am a Front-End Developer for{" "}
