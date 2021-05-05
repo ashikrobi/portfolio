@@ -2,7 +2,7 @@ import React from "react";
 import photo from "../images/photo_passport.png";
 const About = () => {
   return (
-    <div className="w-75 text-center m-auto mt-5 mb-5 pt-5">
+    <div className="w-75 text-center m-auto">
       <h1 className="text-center mb-5" style={{fontSize: "2.5rem"}}>
         ABOUT
       </h1>
