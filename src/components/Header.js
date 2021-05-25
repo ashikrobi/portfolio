@@ -3,9 +3,9 @@ import ParticlesBg from "particles-bg";
 
 const Header = () => {
   return (
-    <div style={{height: "100vh"}} className="d-sm-flex justify-content-center">
+    <div style={{height: "97vh"}} className="d-sm-flex justify-content-center">
       <ParticlesBg type="lines" bg={true} />
-      <div className="d-sm-flex align-items-center">
+      <div className="d-sm-flex align-items-center m">
         <div>
           <h1 className="text-white">
             Hello, I'm <span style={{color: "#E31B6D"}}>Ashiqur Rahman</span>.

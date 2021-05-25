@@ -3,6 +3,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import {faGithubSquare} from "@fortawesome/free-brands-svg-icons";
 import {faFacebookSquare} from "@fortawesome/free-brands-svg-icons";
+import "../components/Footer.css";
 
 const footerStyle = {
   height: "200px",
