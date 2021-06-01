@@ -3,6 +3,9 @@ import project1 from "../images/project1.png";
 import project2 from "../images/project2.png";
 import project3 from "../images/project3.png";
 import ProjectCard from "./ProjectCard";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const projectStyles = {
   minHeight: "700px",
@@ -33,14 +36,21 @@ const projectData = [
   },
 ];
 const Projects = () => {
+  useEffect(() => {
+    AOS.init({ duration: 1500 });
+  }, []);
+
   return (
     <div style={projectStyles}>
-      <div className="display-4 text-center mt-5">
-        <h1 className="pt-5" style={{fontSize: "2.5rem"}}>
+      <div className='display-4 text-center mt-5'>
+        <h1
+          data-aos='fade-left'
+          className='pt-5'
+          style={{ fontSize: "2.5rem" }}>
           PROJECTS
         </h1>
       </div>
-      <div className="row d-flex justify-content-center mb-5 pb-5">
+      <div className='row d-flex justify-content-center mb-5 pb-5'>
         {projectData.map((project) => (
           <ProjectCard project={project} key={project.id}></ProjectCard>
         ))}
