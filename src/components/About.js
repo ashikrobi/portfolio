@@ -11,7 +11,7 @@ const About = () => {
     <div className='w-75 text-center m-auto'>
       <h1
         data-aos='fade-right'
-        className='text-center mb-5 title-bottom'
+        className='text-center mb-5 about-bottom-border'
         style={{ fontSize: "2.5rem" }}>
         ABOUT
       </h1>

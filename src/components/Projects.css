@@ -1,0 +1,9 @@
+.project-bottom-border:after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 70px;
+  height: 4px;
+  background: #444649;
+}

@@ -14,7 +14,7 @@
   background-image: url(../images/photo_passport.png),
     linear-gradient(-90deg, #18caee 0%, #ffffff);
 }
-.title-bottom:after {
+.about-bottom-border:after {
   content: "";
   display: block;
   margin: 0 auto;

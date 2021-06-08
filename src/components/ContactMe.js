@@ -1,8 +1,8 @@
-import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
+import './ContactMe.css';
 const inputStyle = {
   backgroundColor: "#1E242C",
   color: "#757575",
@@ -90,7 +90,7 @@ Main return statement down here. upper return is for only it the form successful
       className='d-flex align-items-center'>
       <form onSubmit={handleSubmit} className='col-md-3 col-xs-2 m-auto'>
         <div className='text-center'>
-          <h1 data-aos='fade-right' className='text-white mb-3'>
+          <h1 data-aos='fade-right' className='text-white mb-3 contact-bottom-border'>
             CONTACT
           </h1>
           <p data-aos='fade-left' className='text-info mb-4'>

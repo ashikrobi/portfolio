@@ -7,6 +7,7 @@ import project3 from "../images/project3.png";
 import project4 from "../images/project4.png";
 import project5 from "../images/project5.png";
 import ProjectCard from "./ProjectCard";
+import "./Projects.css";
 
 const projectStyles = {
   minHeight: "700px",
@@ -62,7 +63,7 @@ const Projects = () => {
       <div className='display-4 text-center mt-5'>
         <h1
           data-aos='fade-left'
-          className='pt-5'
+          className='pt-5 project-bottom-border'
           style={{ fontSize: "2.5rem" }}>
           PROJECTS
         </h1>
