@@ -1,11 +1,12 @@
-import React from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect } from "react";
 import project1 from "../images/project1.png";
 import project2 from "../images/project2.png";
 import project3 from "../images/project3.png";
+import project4 from "../images/project4.png";
+import project5 from "../images/project5.png";
 import ProjectCard from "./ProjectCard";
-import AOS from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 
 const projectStyles = {
   minHeight: "700px",
@@ -33,6 +34,22 @@ const projectData = [
       "Team building site with costing calculation for premier league of cricket",
     webLink: "https://comilla-victorians.netlify.app/",
     img: project3,
+  },
+  {
+    id: 4,
+    title: "Talkbuzz",
+    shortDescription: "Small Team Chat App",
+    webLink: "https://talk-buzz-ba00f.web.app/",
+    img: project4,
+  },
+  {
+    id: 5,
+    title: "Boom Weather",
+    shortDescription:
+      "Simple Weather App",
+    webLink:
+      "https://drive.google.com/drive/folders/1fiYatI-YNJEuzUa5ae6kqFc2qIM_RxIa",
+    img: project5,
   },
 ];
 const Projects = () => {

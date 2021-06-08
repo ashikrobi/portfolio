@@ -1,8 +1,7 @@
-import React from "react";
-import "./About.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from "react";
+import React, { useEffect } from "react";
+import "./About.css";
 
 const About = () => {
   useEffect(() => {
@@ -12,7 +11,7 @@ const About = () => {
     <div className='w-75 text-center m-auto'>
       <h1
         data-aos='fade-right'
-        className='text-center mb-5'
+        className='text-center mb-5 title-bottom'
         style={{ fontSize: "2.5rem" }}>
         ABOUT
       </h1>
