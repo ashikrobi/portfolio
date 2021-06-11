@@ -1,43 +1,63 @@
 import React from "react";
-import Scrollspy from "react-scrollspy";
 import "../components/Navbar.css";
 
 const Navbar = () => {
   return (
-    <Scrollspy
-      className="nav-bar nav navbar-dark bg-dark bar-style sticky-top justify-content-end mb-3"
-      items={["home", "about", "projects", "contact"]}
-      currentClassName="is-current">
-      <li className="nav-item">
-        <a
-          className="nav-link btn btn-outline-danger button-size mx-3 mt-2 mb-2"
-          href="#home"
-          id="test">
-          Home
+    <nav className="navbar navbar-expand-sm navbar-dark bg-dark sticky-top bar-style">
+      <div className="container">
+        <a className="navbar-brand" href="index.html">
+          🅰🆁
         </a>
-      </li>
-      <li>
-        <a
-          className="nav-link btn btn-outline-danger button-size mx-3 mt-2 mb-2"
-          href="#about">
-          About
-        </a>
-      </li>
-      <li>
-        <a
-          className="nav-link btn btn-outline-danger button-size mx-3 mt-2 mb-2"
-          href="#projects">
-          Projects
-        </a>
-      </li>
-      <li>
-        <a
-          className="nav-link btn btn-outline-danger button-size mx-3 mt-2 mb-2"
-          href="#contact">
-          Contact Me
-        </a>
-      </li>
-    </Scrollspy>
+        <button
+          className="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navContent"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="container">
+          <div
+            className="collapse navbar-collapse justify-content-end"
+            id="navContent"
+          >
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a
+                  className="nav-link button-size btn-bg text-white mx-1 px-1"
+                  href="#home"
+                >
+                  Home
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link button-size btn-bg text-white mx-1 px-1"
+                  href="#about"
+                >
+                  About
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link button-size btn-bg text-white mx-1 px-1"
+                  href="#projects"
+                >
+                  Projects
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link button-size btn-bg text-white mx-1 px-1"
+                  href="#contact"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
   );
 };
 
