@@ -1,6 +1,6 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
-import React, { useEffect } from "react";
+import React, {useEffect} from "react";
 import project1 from "../images/project1.png";
 import project2 from "../images/project2.png";
 import project3 from "../images/project3.png";
@@ -46,8 +46,7 @@ const projectData = [
   {
     id: 5,
     title: "Boom Weather",
-    shortDescription:
-      "Simple Weather App",
+    shortDescription: "Simple Weather App",
     webLink:
       "https://drive.google.com/drive/folders/1fiYatI-YNJEuzUa5ae6kqFc2qIM_RxIa",
     img: project5,
@@ -55,20 +54,21 @@ const projectData = [
 ];
 const Projects = () => {
   useEffect(() => {
-    AOS.init({ duration: 1500 });
+    AOS.init({duration: 1500});
   }, []);
 
   return (
     <div style={projectStyles}>
-      <div className='display-4 text-center mt-5'>
+      <div className="display-4 text-center mt-5 pt-5">
         <h1
-          data-aos='fade-left'
-          className='pt-5 project-bottom-border'
-          style={{ fontSize: "2.5rem" }}>
+          data-aos="fade-left"
+          className="pt-5 project-bottom-border"
+          style={{fontSize: "2.5rem"}}
+        >
           PROJECTS
         </h1>
       </div>
-      <div className='row d-flex justify-content-center mb-5 pb-5'>
+      <div className="row d-flex justify-content-center mb-5 pb-5">
         {projectData.map((project) => (
           <ProjectCard project={project} key={project.id}></ProjectCard>
         ))}
