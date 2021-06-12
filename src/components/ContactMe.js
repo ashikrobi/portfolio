@@ -94,7 +94,7 @@ Main return statement down here. upper return is for only it the form successful
     >
       <form
         onSubmit={handleSubmit}
-        className="col-xl-3 col-md-6 col-sm-2 m-auto"
+        className="col-lg-3 col-md-6 col-sm-6 mx-auto"
       >
         <div className="text-center">
           <h1
