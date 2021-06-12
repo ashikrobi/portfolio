@@ -3,7 +3,10 @@ import "../components/Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-sm navbar-dark bg-dark sticky-top bar-style">
+    <nav
+      className="navbar navbar-expand-sm navbar-dark bg-dark sticky-top bar-style"
+      id="nav-item-scroll"
+    >
       <div className="container">
         <a className="navbar-brand" href="index.html">
           🅰🆁
